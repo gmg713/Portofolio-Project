@@ -1,0 +1,172 @@
+html{
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0446aa;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .responsive {
+      width: 100%;
+      height: auto;
+      
+  }
+p{
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 5em;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    bottom: 10; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+.more h2{
+    padding: 20px;
+}
+.column img{
+    width: 50%;
+    height: auto;
+}
+figcaption{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 700px) {
+    .column img,
+    .figcaption{
+      width:100%;
+      height:200px;
+     }
+  }
+  .projects a, ul,li{
+    color: black;
+    text-align: center;
+    list-style-position:inside;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 0;
+}
+a:hover{
+    color:blue
+}
+ .icons{
+    font-size: 40px;
+    letter-spacing: 5px;
+    border: 2px solid;
+    padding: 20px;
+    height: auto;
+  }
+  footer{
+      padding: 1%;
+      
+  }
+  input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    
+  }
+  label {
+    color: white;
+  }
+  .contact h2,
+  .contact h4{
+    color: white;
+  }
+  input[type=submit] {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: darkslateblue;
+  }
+  .container2 {
+    padding: 5px;
+    background-color: black;
+    
+  }
+  

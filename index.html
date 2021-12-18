@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f2ade577fd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+  <a href="#aboutme">About Me</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<div class="intro">
+    <div class="container">
+    <img src="resources/intro.jpg" class="responsive">
+        <div class="centered">My Personal Portofolio</div>
+    </div>
+    <div class="about" id="aboutme">
+    <h2>About Me</h2>
+    <p >Hello! I'm Marius Gabriel Ghiorghita and I'm Full-Stack Engineer. 
+        I have a passion for coding and IT since I have been a kid. The world of coding is so fascinating and powerfull.
+        In my free time I like to travel, attend football events, and listen to music. I also like to take my chances of winning big. </p>
+</div>
+    </div>
+<div class="more">
+    <h2>More about me</h2>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="resources/coding.jpg" class="responsive">
+        <figcaption>This is me coding</figcaption>
+    </div>
+    <div class="column">
+        <img src="resources/my desktop.jpg" class="responsive">
+        <figcaption>My setup</figcaption>
+    </div>
+    <div class="column">
+        <img src="resources/office.jpg" class="responsive">
+        <figcaption>This is my office</figcaption>
+    </div>
+</div>
+<div class="projects" id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><a href="#">Excursion Project</a></li>
+        <li><a href="#">Company Website</a></li>
+    </ul>
+</div>
+<div class="skills" id="skills">
+    <h2>Skills</h2>
+</div>
+<div class="icons">
+    <i class="fab fa-js-square"></i>
+    <i class="fab fa-html5"></i>
+    <i class="fab fa-css3-alt"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-android"></i>
+    <i class="fab fa-node"></i>
+    <i class="fab fa-react"></i>
+    <i class="fab fa-npm"></i>
+    <i class="fab fa-php"></i>
+    <i class="fab fa-aws"></i>
+</div>
+<div class="container2">
+    <div class="contact" id="contact">
+    <h2 >Contact me</h2>
+    <h4>Have an interesting project? I would love to hear about it!</h4>
+    </div>
+    <form>
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="Your  last name..">
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input type="text" id="email" name="email" placeholder="Enter your email address..">
+    <br>
+    <label for="subject">Subject</label>
+    <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <br>
+    <input type="submit" value="Submit">
+
+    </form>
+</div>
+<footer>
+    
+    <h4>Designed & Developed by GMG </h4>
+    &copy; GMG 2021
+</footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
